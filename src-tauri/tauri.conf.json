@@ -1,7 +1,7 @@
 {
   "build": {
-    "devPath": "../src",
-    "distDir": "../src",
+    "devPath": "../src/foliate-js",
+    "distDir": "../src/foliate-js",
     "withGlobalTauri": true
   },
   "package": {
@@ -18,10 +18,11 @@
     },
     "windows": [
       {
+		"url": "reader.html",
         "title": "reader",
         "width": 800,
         "height": 600,
-		"fileDropEnabled":false
+		"fileDropEnabled": false
       }
     ],
     "security": {

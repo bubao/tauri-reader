@@ -9,6 +9,14 @@
 
 fn main() {
     tauri::Builder::default()
+        // .setup(|app| {
+        //     tauri::WindowBuilder::new(
+        //         app,
+        //         "reader",
+        //         tauri::WindowUrl::App("reader.html".into()),
+        //     ).disable_file_drop_handler().build()?;
+        //     Ok(())
+        // })
         // .invoke_handler(tauri::generate_handler![greet])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
