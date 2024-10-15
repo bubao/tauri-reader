@@ -1,10 +1,12 @@
 # Tauri Reader
 
+![socialify](https://socialify.git.ci/bubao/tauri-reader/image?font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Signal&stargazers=1&theme=Auto)
+
 Read books in style.
 
-## License
+![main page](./assets/main_page.png)
 
-This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+## License
 
 The following JavaScript libraries are bundled in this software:
 
